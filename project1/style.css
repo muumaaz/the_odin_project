@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    background: #000000;
+    color: white;
+    width: 100%;
+}
+.layout{
+    margin: 2% 6% 0% 6%;
+}
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+}
+.right ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    align-content: left;
+}
+.header.link{
+    text-decoration: none;
+    color: white;
+}
+.video{
+    padding: 15% 0 15% 0;
+}
+.subhead{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 400%;
+    padding: 0% 20% 0% 20%;
+    margin-bottom: 15%;
+    color: white;
+}
+.ceo,
+.award,
+.service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.subtitle{
+    padding: 10%;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 8%;
+}
+button{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    gap: 10px;
+    padding: 20px 20px 20px 28px;
+    border-radius: 50px;
+    background: #ffffff;
+    border: 0;
+}
+.subhead2{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 300%;
+    padding: 0% 20% 0% 20%;
+    margin-bottom: 15%;
+    color: white;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.blog{
+    width: 100%;
+    display: flex;
+    gap: 5%;
+}
+.blog1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    width: 100%;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    width: 30%;
+}
+.bio{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    width: 50%;
+
+}
+.roll{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.client{
+    display: flex;
+}
+.cta{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 400%;
+    padding: 0% 20% 0% 20%;
+    margin-top: 10%;
+    color: white;
+}
+.footer{
+    margin: 15% 0 5% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.fleft{
+    display:flex;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 50px;
+}
+.fleft ul{
+    list-style-type: none;
+    line-height: 2.5;
+}
+.letter{
+    background: #000000;
+    color:#ffffff;
+}
